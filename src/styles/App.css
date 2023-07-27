@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background: #4195F5;
+  width: 50%;
+  height: 100vh;
+}
+
+.form-control {
+  padding: 0.625rem 0.625rem 0.625rem 5rem;
+}
+
+@media (max-width: 425px) {
+
+  .form-control {
+    padding: 0.625rem 0.625rem 0.625rem 4rem;
+  }
+}

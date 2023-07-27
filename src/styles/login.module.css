@@ -1,0 +1,216 @@
+.mainLogo {
+    text-align: center;
+    background: #4195F5;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btcolorLogo {
+    display: none;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 15rem;
+    width: 60%;
+    background: #fff;
+}
+
+.welcomeText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #4195F5;
+}
+
+.sublinewelcome {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(72, 87, 110, 0.6);
+    margin-top: 12px;
+}
+
+.mainElementContainer p {
+    font-weight: 100;
+    font-size: 16px;
+    color: #777676;
+}
+
+.elementTitleContainer h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.elementTitleContainer p {
+    font-size: 24px;
+    color: #707070;
+    line-height: 0;
+}
+
+.newElementFormLabel {
+    font-size: 16px;
+    font-weight: 400;
+    width: 31%;
+    text-transform: uppercase;
+}
+
+.elementFormInput {
+    outline: none;
+    border: 0.2px solid #C0CBD8;
+    background: #F1F6FD;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    height: 60px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+
+.elementFormContainer {
+    margin-bottom: 3%;
+}
+
+.newElementForm {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    padding: 3%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.newElementFormRow {
+    margin-bottom: 2.5%;
+}
+
+.inputIcon {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.formBorder {
+    border: 0.5px solid rgba(72, 87, 110, 0.25);
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: 10.8%;
+    top: 20%;
+}
+
+.forgot {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    color: #4195F5;
+}
+
+.mainLoginbtn {
+    margin-top: 90px;
+}
+
+.loginBtn {
+    border: 1px solid #48576E;
+    color: #fff;
+    background: #48576E;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.loginBtn:hover {
+    background-color: transparent;
+    color: #48576E;
+    transition: 0.3s all;
+}
+
+.signup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4195F5;
+}
+
+
+@media (max-width: 1440px) {
+    .mainForm {
+        padding: 5rem 6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainLogo {
+        width: 30%;
+    }
+
+    .mainLogo img {
+        width: 70%;
+    }
+
+    .mainForm {
+        padding: 5rem 4rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainForm {
+        padding: 5rem 3rem;
+    }
+
+    .formBorder {
+        left: 15%;
+    }
+
+    .inputIcon {
+        left: 7%;
+    }
+}
+
+@media (max-width: 425px) {
+    .mainLogo {
+        display: none;
+    }
+
+    .mainForm {
+        width: 100%;
+        padding: 5rem 2rem;
+    }
+
+    .btcolorLogo {
+        display: block;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .welcomeText,
+    .sublinewelcome {
+        text-align: center;
+    }
+
+    .inputIcon {
+        left: 8%;
+    }
+
+    .formBorder {
+        left: 16%;
+    }
+}

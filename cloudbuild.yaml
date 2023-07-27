@@ -1,0 +1,11 @@
+steps:
+- name: "gcr.io/cloud-builders/yarn"
+  entrypoint: yarn
+  args: ["install"]
+- name: "gcr.io/cloud-builders/yarn"
+  entrypoint: yarn
+  args: ["build"]
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud app deploy --stop-previous-version']
+timeout: "1600s"

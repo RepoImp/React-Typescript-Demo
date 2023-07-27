@@ -1,0 +1,94 @@
+.mainDirectoryContainer p {
+    font-family: 'Magdelin-Regular';
+    font-weight: 100;
+    font-size: 16px;
+    color: #777676;
+  }
+  
+  .directoryTitleContainer {
+    padding-bottom: 2%;
+  }
+  
+  .directoryTitleContainer h1 {
+    font-family: 'Magdelin-Black';
+    font-weight: bold;
+    font-size: 48px;
+  }
+  
+  .directoryTitleContainer p {
+    font-family: 'Magdelin-Medium';
+    font-size: 24px;
+    color: #707070;
+  }
+  
+  .activeCell button {
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 2rem;
+    text-transform: uppercase;
+    font-family: 'Magdelin-Black';
+    font-size: 12px;
+    letter-spacing: 0.2em;
+  }
+  
+  .trueBtn {
+    color: #295d3d;
+    background: #e7fae3;
+  }
+  
+  .falseBtn {
+    color: #671a21;
+    background-color: #f5cfd3;
+  }
+  
+  .mainGMTHead {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.gmtTxt {
+  font-family: 'Poppins' !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 100% !important;
+}
+
+.dashSearch {
+  border: 0.5px solid #C0CBD8;
+  border-radius: 8px;
+  width: 340px;
+  height: 44px;
+  margin-left: 20px;
+}
+
+.btnUpload {
+  width: 149px;
+  height: 44px;
+  background: #4195F5;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #4195F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.btnUpload:hover {
+  border: 2px solid #4195F5;
+  background: transparent;
+  color: #4195F5;
+  transition: 0.3s all;
+}
+
+.btnUpload svg {
+  font-size: 20px;
+  margin-right: 0.3rem;
+}

@@ -1,0 +1,12 @@
+.loading-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 100%;
+    min-height: 70vh !important;
+  }
+  
+  .loading-progress {
+    width: rem(30px) !important;
+    height: rem(30px) !important;
+  }
